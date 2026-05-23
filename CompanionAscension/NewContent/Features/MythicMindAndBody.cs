@@ -16,8 +16,8 @@ namespace CompanionAscension.NewContent.Features
         private static readonly string MythicMindAndBodyDisplayName = "Mythic Mind and Body";
         private static readonly string MythicMindAndBodyDisplayNameKey = "MythicMindAndBodyName";
         private static readonly string MythicMindAndBodyDescription =
-            "Increases your highest ability score by an amount equal to 1 plus half your mythic level. " +
-            "\nIncreases your lowest saving throw by an amount equal to your mythic level.";
+            "Increases both your highest physical (STR, DEX, or CON) and mental (INT, WIS, or CHA) ability scores each by an amount equal to 1 plus half your mythic rank. " +
+            "\nIncreases your lowest saving throw by an amount equal to your mythic rank.";
         private static readonly string MythicMindAndBodyDescriptionKey = "MythicMindAndBodyDescription";
 
         [HarmonyPatch(typeof(BlueprintsCache), "Init")]
