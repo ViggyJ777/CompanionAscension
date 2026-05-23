@@ -16,7 +16,7 @@ namespace CompanionAscension.NewContent.Features
         private static readonly string MythicMindAndBodyDisplayName = "Mythic Mind and Body";
         private static readonly string MythicMindAndBodyDisplayNameKey = "MythicMindAndBodyName";
         private static readonly string MythicMindAndBodyDescription =
-            "Increases both your highest physical (STR, DEX, or CON) and mental (INT, WIS, or CHA) ability scores each by an amount equal to 1 plus half your mythic rank. " +
+            "Grants a mythic bonus equal to half your mythic rank plus one to both your highest physical (STR, DEX, or CON) and mental (INT, WIS, or CHA) ability scores. " +
             "\nIncreases your lowest saving throw by an amount equal to your mythic rank.";
         private static readonly string MythicMindAndBodyDescriptionKey = "MythicMindAndBodyDescription";
 
